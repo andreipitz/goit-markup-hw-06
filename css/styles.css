@@ -865,3 +865,283 @@ a {
 .privacy-link {
   color: #4d5ae5;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 768px;
+    padding: 0 16px;
+  }
+
+  /* Header adjustments */
+  .navbar-div {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .adress-list {
+    margin-left: 0;
+    gap: 12px;
+    flex-direction: column;
+  }
+
+  .adress-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  /* Hero section */
+  .hero {
+    padding: 112px 0;
+    height: auto;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    line-height: 40px;
+    max-width: 320px;
+  }
+
+  .order-button {
+    margin-top: 36px;
+  }
+  /* Description section */
+  .description {
+    padding: 96px 0;
+  }
+
+  .description-list {
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .description-card {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .description-title {
+    text-align: start;
+    font-size: 18px;
+  }
+
+  /* Team section */
+  .our-team-container {
+    height: auto;
+    padding: 96px 0;
+  }
+
+  .our-team {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our-team-list {  
+    flex-wrap: wrap;
+    gap: 72px 24px;
+      margin-left: 0;
+      padding-bottom: 0;
+  }
+
+  .our-team-title {
+    margin-left: 0;
+    width: auto;
+    margin-bottom: 72px;
+  }
+
+  .our-team-item {
+    margin-left: 54px;
+  }
+
+  /* Portfolio section */
+  .portofolio {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 96px;
+  }
+
+  .portofolio-list {
+    flex-wrap: wrap;
+    gap: 72px 24px;
+      margin-left: 0;
+      padding-bottom: 0;
+  }
+  }
+
+  .portofolio-item {
+    width: 100%;
+    max-width: 360px;
+    height: 420px;
+  }
+
+  /* Footer */
+  .footer {
+    height: auto;
+    padding: 96px 0;
+    margin-top: 96px;
+  }
+
+  .all-footer {
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .footer-btn{
+    padding-top: 40px;
+  }
+  .all-footer .footer-wrap{
+    width: calc((100% - 24px) / 2);
+    padding-left: 84px;
+  }
+  .footer-div {
+    margin-right: 0;
+    width: auto;
+
+  }
+
+  .newsletter {
+    margin-left: 0;
+  }
+
+  .newsletter-form {
+    gap: 16px;
+  }
+
+  .news-email {
+    width: 100%;
+  }
+
+  /* Modal */
+  .modal-container {
+    width: calc(100% - 32px);
+    min-height: auto;
+    max-width: 408px;
+  }
+
+  /* Section spacing */
+  .portofolio-container {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .section-title-portofolio {
+    margin-bottom: 64px;
+  }
+
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    max-width: 480px;
+    padding: 0 16px;
+  }
+
+  /* Header adjustments */
+  .navbar-div {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+
+  .pages-link {
+    gap: 24px;
+    flex-direction: column;
+  }
+
+  .adress {
+    width: 100%;
+  }
+
+  .adress-list {
+    gap: 12px;
+    width: 100%;
+  }
+
+  /* Hero section */
+  .hero {
+    padding: 72px 0;
+    width: 100%;
+  }
+
+  .hero-title {
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 280px;
+  }
+
+  /* Description section */
+  .description {
+    padding: 72px 0;
+  }
+
+  .description-list {
+    flex-direction: column;
+    gap: 72px 0;
+  }
+
+  .description-card {
+    width: 100%;
+  }
+
+  .description-icon {
+    display: none;
+  }
+
+  /* Team section */
+  .our-team-container {
+    padding: 72px 0;
+  }
+
+  .our-team-list {
+    margin-left: 0;
+    padding-bottom: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our-team-item {
+    width: 100%;
+    max-width: 264px;
+  }
+
+  /* Portfolio section */
+  .portofolio {
+    margin-top: 72px;
+  }
+
+  .portofolio-list {
+    margin-top: 48px;
+  }
+
+  .portofolio-item {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 72px 0;
+    margin-top: 72px;
+  }
+
+  .all-footer {
+    gap: 48px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .news-email {
+    width: 100%;
+  }
+
+  /* Modal */
+  .modal-container {
+    width: calc(100% - 32px);
+    padding: 60px 24px 24px;
+  }
+}
